@@ -65,6 +65,7 @@ a:hover{
 .external-link {
     display: flex;
     flex-direction: column;
+    margin-top: 65px;
     font-size: 16px;
     line-height: 35px;
 }
@@ -117,19 +118,20 @@ input {
     width: 50px;
     height: 50px;
 }
-div.line > div {
+.line {
+    margin-top: 146px;
+}
+.line > div {
     width: 1109px;
     height: 1px;
     background-color: #BCD0E5;
 }
-
-
-
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1111px;
+    margin-top: 35px;
 }
 nav > div {
     display: flex;
@@ -141,6 +143,8 @@ nav > div {
 }
 header {
     display: flex;
+    align-items: center;
+    margin-top: 47px;
 }
 .header__text {
     display: flex;
@@ -158,6 +162,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 110px;
 }
 .tools__info-box {
     display: flex;
@@ -171,6 +176,15 @@ header {
     align-items: start;
     width: 240px;
 }
+.design-prof {
+    margin-top: 210px;
+}
+.prod-manage {
+    margin-top: 102px;
+}
+.market {
+    margin-top: 105px;
+}
 .main-content {
     display: flex;
     align-items: start;
@@ -178,14 +192,15 @@ header {
 .main-content__text {
     display: flex;
     flex-direction: column;
-    width: 486px;
-    
+    width: 486px;  
 }
 footer {
     display: flex;
     justify-content: space-between;
     align-items: end;
     width: 1110px;
+    margin-top: 102px;
+    margin-bottom: 83px;
 }
 footer > img {
     align-self: start;
